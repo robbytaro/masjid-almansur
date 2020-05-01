@@ -1,0 +1,83 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.thin-text {
+  font-weight: 400;
+  background: rgba(255, 181, 100, .5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.thin-taxt {
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.thin-text-2 {
+  font-weight: 400;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.thin-text-3 {
+  font-weight: 600;
+  background: rgba(255, 165, 10, .5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
